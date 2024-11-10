@@ -6,6 +6,6 @@ prepend_keymap = [
 [manager]
 prepend_keymap = [
   { on = "<Esc>", run = "close", desc = "Close yazi" },
-  { on = "<Enter>", run = "plugin --sync smart-enter", desc = "Enter directory, or open file" }
+  { on = "<Enter>", run = "plugin --sync smart-enter", desc = "Enter directory, or open file" },
   { on = "o", run = "shell \"$SHELL\" --block --confirm ", desc = "Open shell" },
 ]
